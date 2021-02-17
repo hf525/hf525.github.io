@@ -158,8 +158,8 @@ lazyload:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-- type: git
-  repo: git@github.com:hf525/hf525.github.io.git
+- type: https
+  repo: https://github.com/hf525/hf525.github.io.git
   branch: master
   message: update pages
 
