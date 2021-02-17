@@ -8,7 +8,7 @@ favicon: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 
 # 主题
-theme: myresume
+theme: myresumes
 theme_config:
   robots: index,follow
 # URL
@@ -158,8 +158,8 @@ lazyload:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-- type: https
-  repo: https://github.com/hf525/hf525.github.io.git
+- type: git
+  repo: git@github.com:hf525/hf525.github.io.git
   branch: master
   message: update pages
 
